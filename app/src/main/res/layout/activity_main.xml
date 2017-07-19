@@ -37,22 +37,28 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Reset"
+            android:text="btnReset"
+            android:id="@+id/Reset"
+            android:onClick="btnOnclick"
             android:layout_weight="1"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Setting"
+            android:text="btnSetting"
+            android:id="@+id/Setting"
+            android:onClick="btnOnclick"
             android:layout_weight="1"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Help"
+            android:text="btnHelp"
+            android:id="@+id/Help"
+            android:onClick="btnOnclick"
             android:layout_weight="1"/>
     </LinearLayout>
     <!--Log-->
     <TextView
-        android:id="@+id/txtShow"
+        android:id="@+id/txtLog"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#ff0"
